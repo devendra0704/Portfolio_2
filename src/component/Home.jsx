@@ -7,11 +7,11 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section id="home" className=" flex flex-col md:flex-row items-center justify-center min-h-screen px-2 md:px-4 bg-[#121212] text-white">
+    <section id="home" className="flex flex-col md:flex-row items-center justify-center min-h-screen px-5 md:px-4 bg-[#121212] text-white">
 
       {/* Left Content */}
       <motion.div
-        initial={{ opacity: 0, y: -150 }}
+        initial={{ opacity: 0, y: "-10vw" }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
         className="text-center md:text-left md:w-1/2 space-y-4 ">
@@ -27,11 +27,12 @@ const Home = () => {
           , it's me
         </h2>
         <h1 className="text-5xl md:text-6xl font-bold text-[#FF6B6B]">Devendra Saini</h1>
-        <h2 className="text-3xl font-extrabold font-mono md:text-3xl text-gray-300">
+        <h2 className="text-2xl font-extrabold font-mono md:text-3xl text-gray-300 ">
           I am{" "}
-          <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+          <span className="block md:inline-block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
             <Typewriter
               words={["Full Stack Developer", "MERN Stack Developer"]}
+              whileInView
               loop={0}
               typeSpeed={60}
               deleteSpeed={100}
@@ -42,7 +43,7 @@ const Home = () => {
           </span>
         </h2>
 
-        <p className="max-w-xl text-lg md:text-sm text-gray-300 leading-relaxed">
+        <p className="max-w-xl text-md md:text-sm text-gray-300 leading-relaxed">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500 font-bold">
             Turning ideas into reality{" "}
           </span>

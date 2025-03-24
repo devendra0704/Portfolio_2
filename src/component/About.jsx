@@ -32,13 +32,13 @@ const About = () => {
         transition={{ duration: 1.2, delay: 0.2 }}
         // viewport={{ once: false, amount: 0.3 }}
       /> */}
-      <div className="w-70 h-70 mb-8 md:w-110 md:h-110 background-none cursor-pointer">
+      <div className="w-80 h-80 mb-8 md:w-110 md:h-110 background-none cursor-pointer">
       <Desktop/>
       </div>
 
       {/* Cool Animated Paragraph */}
       <motion.p
-        className="max-w-2xl text-xl px-4 sm:px-0 md:text-lg text-gray-300 leading-relaxed"
+        className="max-w-2xl text-md px-4 sm:px-0 md:text-lg text-gray-300 leading-relaxed"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         // animate={{ opacity: 1, y: 0 }}

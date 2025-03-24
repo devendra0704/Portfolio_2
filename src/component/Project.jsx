@@ -180,7 +180,7 @@ const ProjectCard = ({ project }) => {
       {showDetails &&
 
         (<div className="fixed inset-0 flex items-center justify-center bg-black/50  z-50 m-2">
-          <div className="bg-[#121212] p-8 rounded-lg shadow-lg max-w-lg w-full relative">
+          <div className="bg-[#121212] p-8 rounded-lg shadow-lg max-w-[90vw]  md:max-w-lg w-full relative">
 
             <button
               onClick={() => setShowDetails(!showDetails)}
@@ -221,7 +221,7 @@ const ProjectCard = ({ project }) => {
 const Projects = () => {
   return (
     <div id="projects" className="text-center  bg-[#121212]">
-      <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-300 p-25">My Projects</h2>
+      <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-300 p-15 pb-25">My Projects</h2>
       {/* <p className="text-gray-500 mb-8">My Projects</p> */}
 
       <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
