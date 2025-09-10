@@ -47,7 +47,7 @@ const Navbar = () => {
         <ul className="hidden md:flex space-x-6">
           {["About", "Education", "Skills", "Projects", "Contact"].map((item) => (
             <li key={item}>
-              <a href={`#${item.toLowerCase()}`} className="hover:text-[#00ADB5]">
+              <a href={`#${item.toLowerCase()}`} className="text-base lg:text-lg font-popins font-medium text-white hover:text-[#00ADB5]">
                 {item}
               </a>
             </li>

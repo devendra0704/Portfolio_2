@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section id="home" className="flex flex-col md:flex-row items-center justify-center min-h-screen px-5 md:px-4 bg-[#121212] text-white">
+    <section id="home" className="flex flex-col md:flex-row items-center justify-center min-h-screen px-5 md:px-4  text-white">
 
       {/* Left Content */}
       <motion.div

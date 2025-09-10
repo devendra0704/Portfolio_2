@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col justify-center items-center text-center  py-25  px-2 md:px-4 bg-[#121212] text-white"
+      className="min-h-screen flex flex-col justify-center items-center text-center py-96 sm:py-0  px-2 md:px-4 bg-[#121212] text-white"
     >
       {/* Animated Heading */}
       <motion.h2
@@ -38,44 +38,31 @@ const About = () => {
 
       {/* Cool Animated Paragraph */}
       <motion.p
-        className="max-w-2xl text-md px-4 sm:px-0 md:text-lg text-gray-300 leading-relaxed"
+          className="max-w-2xl text-md px-4 sm:px-0 text-lg lg:text-xl font-popins text-gray-400 leading-relaxed"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         // animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.0, delay: 0.3 }}
         // viewport={{ once: false, amount: 0.3 }}
       >
-        Hi, I'm  
-        <span className="text-cyan-300 font-bold"> Devendra Saini</span>,  
-        a student at <span className="text-purple-400 font-semibold">NIT Allahabad</span>,  
-        with a deep passion for  
-        <span className="text-orange-400 font-semibold"> Web & Software Development</span>
-        
-        . I have fully embraced  
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300 font-bold"> Full Stack Development</span>, driven by my curiosity to build  
-        <span className="text-yellow-400 font-semibold"> scalable, user-friendly applications </span>  
-        that solve real-world challenges.
-        My expertise lies in  
-        <span className="text-green-300 font-semibold"> building robust, real-time solutions</span>,  
-        with a strong focus on  
-        <span className="text-pink-300 font-semibold"> performance optimization and seamless user experiences</span>.
-        <br />
-        <br />  
-        <span className="text-orange-400 font-semibold"> I love solving real-world problems through technology!</span>  
-        <br />
 
-        <span className="text-blue-400 font-medium">
+          Hi, I'm Devendra Saini,
+          a student at NIT Allahabad,
+          with a deep passion for Web & Software Development.
+          I have fully embraced Full Stack Development,
+          driven by my curiosity to build scalable, user-friendly applications
+          that solve real-world challenges.
+          My expertise lies in building robust, real-time solutions,
+          with a strong focus on performance optimization and seamless user experiences.
+          <br />
+          <br />  
+          I love solving real-world problems through technology!
+
           I believe in continuous learning and innovation, always exploring new frameworks and tools to enhance my skills and create impactful solutions.
-        </span>  
-        <br />
-        <br />
-  
-        I aspire to work in a  
-        <span className="text-purple-400 font-semibold"> dynamic and challenging environment</span>  
-        where I can contribute  
-        <span className="text-green-400 font-semibold"> both my software development expertise and problem-solving skills </span>  
-        to build  
-        <span className="text-yellow-300 font-bold"> cutting-edge digital products.</span>  
+
+          I aspire to work in a dynamic and challenging environment
+          where I can contribute both my software development expertise and problem-solving skills
+          to build cutting-edge digital products.
       </motion.p>
 
       </div>
