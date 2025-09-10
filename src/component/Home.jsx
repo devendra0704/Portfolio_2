@@ -76,8 +76,8 @@ const Home = () => {
         {/* Social Icons */}
         <div className="flex justify-center md:justify-normal space-x-6 text-3xl mt-4">
           <a href="https://www.linkedin.com/in/devendra-saini-49z/" className="text-blue-500 hover:text-blue-400"><FaLinkedin /></a>
-          <a href="#" className="text-white hover:text-gray-400"><FaGithub /></a>
-          <a href="#" className="text-yellow-500 hover:text-yellow-200"><SiLeetcode /></a>
+          <a href="https://github.com/devendra0704" className="text-white hover:text-gray-400"><FaGithub /></a>
+          <a href="https://leetcode.com/u/dev1506/" className="text-yellow-500 hover:text-yellow-200"><SiLeetcode /></a>
         </div>
 
         {/* Button */}

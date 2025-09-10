@@ -29,7 +29,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="flex flex-col items-center justify-center min-h-screen px-6 md:px-16 bg-[#121212] text-white">
+    <section id="contact" className="flex flex-col items-center justify-center min-h-screen px-6 md:px-16 bg-[#121212] text-white -mb-20">
       <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-300 mb-3 ">Get in Touch</h2>
       {/* <p className="text-gray-500 mb-8">Contact me</p> */}
 

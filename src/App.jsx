@@ -7,6 +7,7 @@ import Contact from "./component/Contact";
 import Home from "./component/Home";
 import Skills from "./component/Skills";
 import ParticlesCom from "./component/ParticlesCom";
+import Footer from "./component/Footer";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
       <main className="pt-20">
         <div className="relative z-40">
           <ParticlesCom />
-          <div className="absolute flex justify-center top-0  min-h-screen w-full bg-transparent" id="about">
+          <div className="absolute flex justify-center top-0  min-h-screen w-full bg-transparent" id="home">
             <Home />
           </div>
         </div>
@@ -24,6 +25,8 @@ const App = () => {
         <Skills />
         <Projects />
         <Contact />
+        <hr className="border-t border-gray-500 my-8" />
+        <Footer />
       </main>
     </div>
   );
